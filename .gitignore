@@ -1,0 +1,171 @@
+# ==========================================
+# Python bytecode and caches
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Distribution / packaging
+# ==========================================
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Virtual environments
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+.Python
+pyvenv.cfg
+bin/
+include/
+lib/
+lib64/
+lib64
+share/
+
+# ==========================================
+# Dependency managers
+# ==========================================
+pdm.lock
+poetry.lock
+uv.lock
+.uv/
+.pdm-python
+
+# ==========================================
+# Testing / coverage
+# ==========================================
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+.cache
+
+# ==========================================
+# Type checkers / linters / formatters
+# ==========================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+.pyre/
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# Environment / secrets
+# ==========================================
+.env
+.env.*
+*.env
+!.env.example
+*.pem
+*.key
+*.p12
+secrets.*
+credentials.*
+
+# ==========================================
+# LLM / ML artifacts
+# ==========================================
+# Кэш моделей и токенизаторов
+.cache/huggingface/
+.cache/torch/
+.cache/whisper/
+*.cache
+# Веса и чекпоинты моделей
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.pkl
+*.joblib
+*.bin
+models/
+checkpoints/
+runs/
+wandb/
+mlruns/
+.keras/
+lightning_logs/
+# Данные и результаты
+data/
+datasets/
+*.parquet
+*.arrow
+*.feather
+*.npz
+embeddings/
+vector_store/
+chroma/
+chromadb/
+
+# ==========================================
+# Local databases
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+# General logs
+# ==========================================
+*.log
+
+# ==========================================
+# IDE / Editor settings
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS-specific files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Documentation builds
+# ==========================================
+docs/_build/
+site/
+
+# ==========================================
+# Misc
+# ==========================================
+.cpython-*.pyc
+pip-log.txt
+pip-delete-this-directory.txt
